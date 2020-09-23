@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+   
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:paddingTop="50dp"
+        android:hint="Enter Description"
+
+        android:textColorHint="#ffffff"
+        android:textColor="#FFFFFF"
+
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+
+        >
+
+
+        <requestFocus />
+    </EditText>
+
+
+    <Button
+        android:id="@+id/startSetDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Set Target Time"
+        android:background="@drawable/btn"
+
+
+        />
+
+    <TextView
+        android:id="@+id/alarmprompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_weight="0.13" />
+
+    <Button
+        android:id="@+id/gesture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="Add gesture"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
