@@ -24,3 +24,10 @@
 * **PARENT**
 1)VIEW ATTENDANCE
 2)RECEIVE ATTENDANCE SHORTAGE ALERT
+
+> **OVERVIEW**
+<br/><br/>![](images/MainActivity.jpeg)
+<br/><br/>![](images/CARDVIEW%20MENU.jpeg)
+<br/><br/>![](images/Notes_Google%20cloud.jpeg)
+<br/><br/>![](images/when%20attendance%20below%2075%25.jpeg)
+
